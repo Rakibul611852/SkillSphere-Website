@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Advanced React Mastery",
+    "instructor": "Sarah Khan",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Master React hooks, context, and performance optimization.",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Emily Watson",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn modern UI/UX design principles and tools.",
+    "image": "https://images.unsplash.com/photo-1559028012-481c04fa702d",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "Digital Marketing Complete Guide",
+    "instructor": "Alex Roy",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "SEO, social media marketing, and online branding.",
+    "image": "https://images.unsplash.com/photo-1557838923-2985c318be48",
+    "category": "Marketing"
+  },
+  {
+    "id": 5,
+    "title": "Python for Beginners",
+    "instructor": "David Miller",
+    "duration": "22 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Start coding with Python from zero.",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935",
+    "category": "Programming"
+  },
+  {
+    "id": 6,
+    "title": "Next.js Full Course",
+    "instructor": "Rahim Uddin",
+    "duration": "14 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Build modern web apps using Next.js App Router.",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+    "category": "Development"
+  },
+  {
+    "id": 7,
+    "title": "Graphic Design Masterclass",
+    "instructor": "Sophia Lee",
+    "duration": "16 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Learn Photoshop, Illustrator and design basics.",
+    "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
+    "category": "Design"
+  },
+  {
+    "id": 8,
+    "title": "Data Structures & Algorithms",
+    "instructor": "Michael Brown",
+    "duration": "25 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Master DSA for coding interviews.",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+    "category": "Programming"
+  },
+  {
+    "id": 9,
+    "title": "Freelancing Success Guide",
+    "instructor": "Tanvir Ahmed",
+    "duration": "10 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Start freelancing and earn online effectively.",
+    "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+    "category": "Career"
+  },
+  {
+    "id": 10,
+    "title": "Artificial Intelligence Basics",
+    "instructor": "Dr. James Carter",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Introduction to AI, ML and real-world applications.",
+    "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b",
+    "category": "AI"
+  }
+]

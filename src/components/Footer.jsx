@@ -49,30 +49,22 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-white dark:text-white mb-4">
               Contact
             </h3>
-            <ul className="space-y-3 text-sm text-white">
-              <li>
-                <Link
-                  href="/about"
-                >
-                  Email : rakib*****@gmail.com
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                >
-                  Phone : 015********
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/terms"
-                  
-                >
-                  Terms
-                </Link>
-              </li>
-            </ul>
+              <ul className="space-y-2 text-gray-300">
+  
+                <li className="hover:text-white transition">
+                  📧 Email: rakib*****@gmail.com
+                </li>
+
+                <li className="hover:text-white transition">
+                  📞 Phone: 015********
+                </li>
+
+                <li className="hover:text-white transition">
+                  💬 WhatsApp: 01879******
+                </li>
+
+              </ul>
+  
           </div>
 
           {/* CTA Block */}
@@ -81,7 +73,7 @@ const Footer = () => {
               Social links
             </h3>
 
-              <div className="flex gap-4 ">
+              <div className="md:flex gap-4 ">
                   <p className="object-cover h-auto w-auto border border-gray-500 p-1 rounded-full"><FaFacebookF /></p>
                   <p className="object-cover h-auto w-auto border border-gray-500 p-1 rounded-full"><IoLogoTwitter /></p>
                   <p className="object-cover h-auto w-auto border border-gray-500 p-1 rounded-full"><FaLinkedin /></p>
@@ -95,7 +87,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white">
-          <p>© {new Date().getFullYear()} pixgen. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SkillSphere. All rights reserved.</p>
 
           <div className="flex items-center gap-6">
             <Link

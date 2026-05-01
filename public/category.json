@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Complete Web Development Bootcamp",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "name": "Advanced React Mastery",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "name": "UI/UX Design Fundamentals",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "name": "Digital Marketing Complete Guide",
+    "category": "Marketing"
+  },
+  {
+    "id": 5,
+    "name": "Python for Beginners",
+    "category": "Programming"
+  },
+  {
+    "id": 6,
+    "name": "Next.js Full Course",
+    "category": "Development"
+  },
+  {
+    "id": 7,
+    "name": "Graphic Design Masterclass",
+    "category": "Design"
+  },
+  {
+    "id": 8,
+    "name": "Data Structures & Algorithms",
+    "category": "Programming"
+  },
+  {
+    "id": 9,
+    "name": "Freelancing Success Guide",
+    "category": "Career"
+  },
+  {
+    "id": 10,
+    "name": "Artificial Intelligence Basics",
+    "category": "AI"
+  }
+]

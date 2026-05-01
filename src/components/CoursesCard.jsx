@@ -1,10 +1,8 @@
 import { Button, Card, Chip, Separator } from "@heroui/react";
 import Image from "next/image";
 import { FcRating } from "react-icons/fc";
-import { MdOutlineTimer } from "react-icons/md";
 
-const SkillsCard = ({skill}) => {
-    console.log(skill)
+const CoursesCard = ({skill}) => {
   return (
     <Card className=" bg-gray-100 hover:bg-gray-300 border">
         <div className="">
@@ -15,7 +13,7 @@ const SkillsCard = ({skill}) => {
                 alt={skill.title}
                 className="rounded-lg text-center mx-auto object-cover overflow-hidden"
                 />
-                <Chip className="absolute right-2 top-2">{skill.category}</Chip>
+                <Chip className="absolute right-2 top-2 bg-green-200 ">{skill.category}</Chip>
             </div>
 
             <div className="">
@@ -50,4 +48,4 @@ const SkillsCard = ({skill}) => {
   )
 }
 
-export default SkillsCard;
+export default CoursesCard;

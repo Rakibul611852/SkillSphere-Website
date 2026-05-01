@@ -1,4 +1,4 @@
-import SkillsCard from "./SkillsCard"
+import CoursesCard from "./CoursesCard"
 
 const TopGeneration =async () => {
     const res = await fetch ('https://skill-sphere-website-green.vercel.app/data.json')
@@ -7,10 +7,10 @@ const TopGeneration =async () => {
 
   return (
     <div>
-          <h1 className="text-3xl font-bold mt-10 text-center">Top Generation</h1>
+          <h1 className="text-3xl font-bold mt-10 text-center">Top Courses Generation</h1>
 
           <div className=" grid md:grid-cols-4 gap-10 mt-10 ">
-            {topSkills.map(skill => <SkillsCard key={skill.id} skill = {skill}/>)}
+            {topSkills.map(skill => <CoursesCard key={skill.id} skill = {skill}/>)}
           </div>
     </div>
   )

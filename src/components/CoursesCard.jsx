@@ -1,6 +1,8 @@
+"use client";
 import { Button, Card, Chip, Separator } from "@heroui/react";
 import Image from "next/image";
 import { FcRating } from "react-icons/fc";
+import Link from "next/link";
 
 const CoursesCard = ({skill}) => {
   return (
@@ -35,7 +37,12 @@ const CoursesCard = ({skill}) => {
 
               </div>
 
-              <Button variant="outline" className={'w-full mt-5'}>View</Button>
+              <Link
+                href={`/all-courses/${skill.id}`}
+                className="w-full block text-center mt-10 bg-green-500 text-white py-2 rounded-xl"
+                >
+                View Details
+              </Link>
 
             {/* <div className="flex mx-auto items-center gap-2 mt-3">
                 <p className="font-semibold"><MdOutlineTimer /> </p>

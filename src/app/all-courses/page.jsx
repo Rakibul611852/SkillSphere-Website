@@ -4,7 +4,6 @@ import React from 'react'
 const AllCoursesPage = async () => {
    const res = await fetch ('https://skill-sphere-website-green.vercel.app/data.json')
     const skills = await res.json()
-    console.log(skills)
   return (
     <div>
              <h2 className='text-3xl font-bold m-4'>All Courses</h2>

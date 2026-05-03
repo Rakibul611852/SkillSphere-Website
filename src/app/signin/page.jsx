@@ -12,6 +12,7 @@ import {
   TextField,
 } from "@heroui/react";
 import { useRouter } from "next/navigation";
+import { AiOutlineGoogle } from "react-icons/ai";
 
 export default function SignInPage() {
   const router = useRouter()
@@ -33,6 +34,12 @@ export default function SignInPage() {
       router.push('/')  
     }
   };
+
+  const handlGoogleSignIn = async() => {
+    await authClient.signIn.social({
+        provider:'google'
+    })
+  }
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">
@@ -95,6 +102,10 @@ export default function SignInPage() {
           </Button>
         </div>
       </Form>
+
+      <p className="text-center">Or</p>
+
+      <Button onClick={handlGoogleSignIn} variant="outline" className={'w-full'}><AiOutlineGoogle />Sign In with Google</Button>
     </Card>
   );
 }

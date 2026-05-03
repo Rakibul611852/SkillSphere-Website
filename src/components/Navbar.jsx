@@ -63,8 +63,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/login" className="border px-2 py-1 rounded">
-                Login
+              <Link href="/signin" className="border px-2 py-1 rounded">
+                SignIn
               </Link>
             </li>
           </ul>

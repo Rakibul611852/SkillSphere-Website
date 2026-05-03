@@ -66,7 +66,7 @@ const userData = authClient.useSession()
 
         {/* Auth */}
       <div className="flex gap-4">
- { !user && <ul className="flex items-center gap-4 text-lg">
+ { !user && <ul className="flex  items-center gap-4 text-lg">
               <li>
                 <Link href="/signup" className="border px-2 py-1 rounded">
                   SignUp

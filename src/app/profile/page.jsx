@@ -7,7 +7,9 @@ import React from 'react'
 const page = () => {
     const userData = authClient.useSession()
      const user = userData.data?.user
-     console.log(user)
+       
+    
+
   return (
     <div>
           <Card className='max-w-96 mx-auto flex flex-col items-center border mt-10'>

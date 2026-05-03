@@ -14,7 +14,7 @@ import {
 import { useRouter } from "next/navigation";
 
 export default function SignUpPage() {
-  
+
   const router = useRouter()
 
   const onSubmit = async (e) => {
@@ -28,10 +28,10 @@ export default function SignUpPage() {
   console.log({name,image,email,password})
 
     const {data, error} = await authClient.signUp.email({
-          name: name,
-          email: email,
-          password: password,
-          image: image,
+          name,
+          email,
+          password,
+          image,
     })
     console.log({data,error})
     if(!error) {

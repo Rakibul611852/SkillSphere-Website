@@ -6,7 +6,7 @@ import React from 'react'
 
 const page = () => {
     const userData = authClient.useSession()
-     const user = userData.data?.user
+     const user = userData.data?.user;
        
     
 

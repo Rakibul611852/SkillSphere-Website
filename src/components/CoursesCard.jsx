@@ -12,6 +12,7 @@ const CoursesCard = ({skill}) => {
                 <Image
                 src={skill.image}
                 fill
+                sizes='(max-width:768px) 100vw,(maz-width:1200px)50vw,33vw'
                 alt={skill.title}
                 className="rounded-lg text-center mx-auto object-cover overflow-hidden"
                 />
